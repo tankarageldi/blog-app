@@ -76,14 +76,3 @@ router.get("/post/:id", async (req, res) => {
   }
 });
 export default router;
-
-// // 1
-// function insertPostData() {
-//   Post.insertMany([
-//     {
-//       title: "Building a Blog",
-//       body: "This is the body text",
-//     },
-//   ]);
-// }
-// insertPostData();
