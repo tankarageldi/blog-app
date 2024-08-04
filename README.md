@@ -1,3 +1,3 @@
-# Blog application 
+# Blog application
 
-description todo 
+description todo
