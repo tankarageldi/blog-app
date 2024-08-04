@@ -3,7 +3,7 @@ const router = express.Router();
 import Post from "../models/Post.js";
 
 // Get Home
-router.get("", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const locals = {
       title: "NodeJS Blog",
