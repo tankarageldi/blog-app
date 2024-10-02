@@ -43,7 +43,6 @@ A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, 
 4. Create a `.env` file in the root directory and add the following environment variables:
 
    ```makefile
-   PORT=3000
    MONGO_URI=your_mongodb_uri
    JWT_SECRET=your_secret_key
    ```
