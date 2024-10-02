@@ -1,17 +1,13 @@
 # Full Stack Blog Application
 
-A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, HTML, and CSS. This application allows users to create, edit, and delete blog posts, view posts from other users, and engage with content.
+A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, HTML, and CSS. This application allows users to create, edit, and delete blog posts, and engage with content.
 
 ## Features
 
-- User authentication and authorization (sign up, login, logout)
 - Create, edit, and delete blog posts
 - Display all blog posts in a structured format
 - Individual post pages with full content view
 - Responsive design with CSS for mobile and desktop views
-- RESTful API for handling data with MongoDB
-- Error handling for all API routes
-- Security features such as password encryption using bcrypt
 - Basic validation of forms (e.g., for login/signup)
 
 ## Technologies Used
@@ -22,7 +18,6 @@ A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, 
 - **JavaScript (ES6+)**: Front-end scripting and back-end logic
 - **HTML & CSS**: For building the front-end user interface
 - **Mongoose**: ODM for MongoDB, simplifies database operations
-- **bcrypt**: For hashing user passwords
 - **EJS (or another templating engine, if applicable)**: Dynamic views and rendering templates
 
 ## Installation
@@ -30,7 +25,7 @@ A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone [https://github.com/tankarageldi/blog-app](https://github.com/tankarageldi/blog-app)
    ```
 
 2. Navigate to the project directory:
@@ -42,7 +37,7 @@ A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, 
 3. Install dependencies:
 
    ```bash
-   npm install
+   npm i
    ```
 
 4. Create a `.env` file in the root directory and add the following environment variables:
@@ -56,7 +51,7 @@ A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, 
 5. Run the application:
 
    ```bash
-   npm start
+   nodemon app.js
    ```
 
 6. Open your browser and visit `http://localhost:3000`.
