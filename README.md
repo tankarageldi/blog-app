@@ -25,7 +25,7 @@ A full-stack blog application built with Node.js, Express, MongoDB, JavaScript, 
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/tankarageldi/blog-app](https://github.com/tankarageldi/blog-app)
+   git clone https://github.com/tankarageldi/blog-app.git
    ```
 
 2. Navigate to the project directory:
